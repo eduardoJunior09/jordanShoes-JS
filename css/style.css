@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --cor-black: #000000;
+  --cor-white: #ffffff;
+}
+
+/* Estilização NAV */
+nav {
+  width: 100vw;
+  height: 40px;
+  padding: 10px;
+  text-align: center;
+}
+nav p {
+  font-size: 18px;
+}
+
+/* Estilização HEADER */
+/* wallpaper */
+.wallpaper {
+  width: 100vw;
+  height: 400px;
+  position: relative;
+  background-color: var(--cor-black);
+}
+
+.wallpaper img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: 50% 1%;
+  opacity: 0.3;
+}
+
+/* texto e logo */
+.main-header {
+  top: 150px;
+  margin-left: 40px;
+  position: absolute;
+}
+
+.main-header-img img {
+  width: 200px;
+  height: auto;
+}
+
+.text-header {
+  margin-top: 10px;
+  color: var(--cor-white);
+}
+
+.text-header h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.text-header p {
+  font-size: 18px;
+}
+
+
+/* Estilização MAIN */
