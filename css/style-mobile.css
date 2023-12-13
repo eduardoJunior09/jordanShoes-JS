@@ -1,0 +1,62 @@
+@media (max-width: 768px) {
+  .tenis {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 425px) {
+  /*Configurações NAV*/
+  nav p {
+    font-size: 13px;
+  }
+
+  nav img {
+    width: 40px;
+  }
+
+  /*Configurações HEADER*/
+  .text-header h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .text-header p {
+    font-size: 15px;
+  }
+
+  /*Configurações MAIN*/
+  main {
+    width: 70%;
+  }
+
+  .text-intro h2 {
+    font-size: 20px;
+ 
+  }
+  .text-intro p {
+    font-size: 15px;
+  }
+
+  .tenis {
+    grid-template-columns: 1fr;
+  }
+  
+
+  .img-tenis {
+    width: 100%;
+  }
+
+  .img-tenis img {
+    width: 180px;
+  }
+
+  .description{
+    font-size: 15px;
+  }
+  
+  .model-tenis{
+    font-size: 13px;
+    margin: 8px 0;
+    color: var(--color-name-tennis);
+  }
+}
