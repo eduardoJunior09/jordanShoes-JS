@@ -6,23 +6,32 @@
 :root {
   --cor-black: #000000;
   --cor-white: #ffffff;
+  --color-box: #d6d9e0;
+  --color-name-tennis: #7ca2f4; 
 }
 
 /* Estilização NAV */
 nav {
-  width: 100vw;
+  width: 100%;
   height: 40px;
   padding: 10px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 nav p {
   font-size: 18px;
 }
 
+nav img {
+  margin-right: 10px;
+  width: 40px;
+  height: auto;
+}
+
 /* Estilização HEADER */
 /* wallpaper */
 .wallpaper {
-  width: 100vw;
+  width: 100%;
   height: 400px;
   position: relative;
   background-color: var(--cor-black);
@@ -62,5 +71,62 @@ nav p {
   font-size: 18px;
 }
 
-
 /* Estilização MAIN */
+
+main {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.text-intro {
+  width: 100%;
+  height: 100px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.text-intro h2 {
+  font-size: 25px;
+  margin: 10px;
+}
+
+.text-intro p {
+  font-size: 18px;
+}
+
+.tennis {
+  width: 100%;
+  height: auto;
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.box-tennis{
+  width: 100%;
+}
+.box-tennis img {
+  width: 230px;
+}
+.img-tennis {
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-main);
+}
+
+.description{
+  width: 100%;
+  text-align: start;
+  font-size: 18px;
+}
+
+.model-tennis{
+  font-size: 15px;
+  margin: 8px 0;
+  color: var(--color-name-tennis);
+}
