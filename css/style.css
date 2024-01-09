@@ -7,7 +7,7 @@
 :root {
   --cor-black: #000000;
   --cor-white: #ffffff;
-  --color-box: #d6d9e0;
+  --color-box: #d6d9e098;
   --color-name-tenis: #7ca2f4;
 }
 
@@ -123,6 +123,7 @@ main {
   background-color: var(--color-box);
 }
 
+
 .description {
   width: 100%;
   text-align: start;
@@ -134,3 +135,9 @@ main {
   margin: 8px 0;
   color: var(--color-name-tenis);
 }
+
+.img-tenis img:hover{
+  transition: transform 0.3s ease-in-out; 
+  transform: scale(1.2);
+}
+
