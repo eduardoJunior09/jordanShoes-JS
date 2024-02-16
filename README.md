@@ -10,3 +10,6 @@
 - Figma  
 
 <h3>Disponível em: https://lnkd.in/dUe38Fuw</h3>
+
+![image](https://github.com/eduardoJunior09/jordanShoes-JS/assets/152993017/888280a3-9784-44e1-89d0-68f5e3b5f36b)
+
